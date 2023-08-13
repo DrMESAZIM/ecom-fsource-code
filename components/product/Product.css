@@ -1,0 +1,86 @@
+.product{
+    padding: 10px 20px;
+    background: #F8F9FA;
+    margin-top: 20px;
+}
+
+.product h2{
+    text-align: center;
+    font-size:62px;
+    font-weight: 200;
+}
+
+.product .contant{
+    margin-left: 90px;
+    padding: 10px 20px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product  .contant .box{
+
+    margin: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    height: 370px;
+    width: 230px;
+    background: #e6e8ea;
+}
+
+.product .contant .box .img_box{
+    width: 100%;
+    height: 300px;
+}
+
+.product .contant .box .img_box img{
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+
+.product .contant .box .img_box a{
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 8px 8px;
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.product .contant .box .img_box a:hover{
+    border:1px solid #c2a942;
+    color: #c2a942;
+    background: none;
+    font-weight: 400;
+}
+
+.product .contant .box .detail{
+    margin-top: -30px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.product .contant .box .detail p
+{
+    color: #0000004d;
+}
+
+
+.product .contant .box .detail h3{
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+
+.product .contant .box .detail h4
+{
+    margin-top: 5px;
+}
+

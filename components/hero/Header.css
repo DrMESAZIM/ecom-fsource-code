@@ -1,0 +1,33 @@
+.header{
+    padding: 10px 20px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header h2{
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.header .menu{
+display: none;
+}
+.header  ul{
+    display: flex;
+    position: relative;
+    left: 50%;
+    margin: 10px 20px;
+}
+
+.header ul li{
+    margin-left: 40px;
+    list-style: none;
+}
+
+.header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}

@@ -1,0 +1,42 @@
+.home{
+    height: 100%;
+    width: 100%;
+background: url();
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home .cantant{
+    position: relative;
+    padding: 10px 20px;
+    top: 25%;
+    margin-left: 10%;
+}
+
+.home  .cantant h2{
+    font-size: 52px;
+    font-weight: 100;
+}
+
+.home  .cantant p{
+    margin-right: 50%;
+    margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.home  .cantant a{
+
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #c2a942;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.home .cantant a:hover{
+    background: #fff;
+    color: #c2a942;
+    border: 1px solid#c2a942;
+}
